@@ -1,0 +1,160 @@
+ <!DOCTYPE html>
+ <html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <title>Grundlayout</title>
+     <link rel="stylesheet" href="lightbox/lightbox.css" />
+     <style>
+
+     #header{
+       position: absolute;
+       left: 10px;
+       top: 10px;
+       right: 10px;
+       height: 100px;
+       background-color: #6f2b00;
+      }
+     #nav{
+       position: absolute;
+       left: 10px;
+       top: 110px;
+       bottom: 90px;
+       width: 150px;
+       background-color: darkgrey;
+      }
+     #footer{
+       position: absolute;
+       left: 10px;
+       bottom: 10px;
+       right: 10px;
+       height: 80px;
+       background-color: black;
+       color: white;
+      }
+     #content{
+       position: absolute;
+       left: 160px;
+       bottom: 90px;
+       right: 10px;
+       top: 110px;
+       background-color: lightgrey;
+      }
+     #nav ul li {
+       list-style-type: none;
+      }
+     #nav ul li a, #nav ul li a:visited {
+       text-decoration: none;
+       color: black;
+       font-variant: small-caps;
+       background-color: grey;
+       display: block;
+       }
+       #nav ul li a:hover{
+         background-color: lightgrey;
+       }
+       #nav ul{
+         padding: 0;
+         text-align: center;
+         margin: 0;
+       }
+       #header{
+         font-variant: small-caps;
+       }
+       #footer{
+         font-variant: small-caps;
+       }
+       #content{
+         font-variant: small-caps;
+       }
+       #content div{
+         width: 19%;
+         margin: 1em 0 0 0.5%;
+         border: 1px solid white;
+         display: inline-block;
+       }
+       #content div img{
+         max-width: 100%;
+         max-height: 66%;
+       }
+     </style>
+
+ </head>
+
+ <body>
+   <header>
+     <div id="header">
+       Malt & Pepper
+
+     </div>
+
+   </header>
+   <nav>
+     <div id="nav">
+       <ul>
+
+       <li><a href="aufgabe_grundlayout_links.html">Home</a></li>
+       <li><a href="aufgabe_grundlayout_gallery.html">Galery</a></li>
+       <li><a href="#">About</a></li>
+       <li><a href="#">Blog</a></li>
+       <li><a href="#">Contact</a></li>
+
+       </ul>
+
+     </div>
+
+   </nav>
+   <div id="content">
+
+     <div> <a href="img/whiskey_barrels.jpg" data-lightbox="image-1"
+       data-title="Whiskey Barrels front">
+       <img src="img/whiskey_barrels.jpg" alt="barrel1" /></a>
+     </div>
+
+     <div> <a href="img/whiskey_barrels_1.jpg" data-lightbox="image-1"
+       data-title="Whiskey Cellar">
+       <img src="img/whiskey_barrels_1.jpg" alt="barrel2" /></a>
+     </div>
+
+     <div> <a href="img/whiskey_barrels_2.jpg" data-lightbox="image-1"
+       data-title="Whiskey Barrel House">
+       <img src="img/whiskey_barrels_2.jpg" alt="barrel3" /></a>
+     </div>
+
+     <div> <a href="img/whiskey_barrels_3.jpg" data-lightbox="image-1"
+       data-title="Whiskey black/white">
+       <img src="img/whiskey_barrels_3.jpg" alt="barrel4" /></a>
+     </div>
+
+     <div> <a href="img/whiskey_barrels_4.jpg" data-lightbox="image-1"
+       data-title="Whiskey 'old man'">
+       <img src="img/whiskey_barrels_4.jpg" alt="barrel5" /></a>
+     </div>
+
+     <div> <a href="img/whiskey_barrels_5.jpg" data-lightbox="image-1"
+       data-title="Whiskey Glas">
+       <img src="img/whiskey_barrels_5.jpg" alt="barrel6" /></a>
+     </div>
+
+     <div> <a href="img/whiskey_barrels_6.jpg" data-lightbox="image-1"
+       data-title="Whiskey Cave old">
+       <img src="img/whiskey_barrels_6.jpg" alt="barrel7" /></a>
+     </div>
+
+     <div> <a href="img/whiskey_barrels_7.jpg" data-lightbox="image-1"
+       data-title="Whiskey woody">
+       <img src="img/whiskey_barrels_7.jpg" alt="barrel8" /></a>
+     </div>
+
+   </div>
+   <footer>
+     <div id="footer">
+       Footer
+
+
+   </footer>
+   <script src="lightbox/lightbox-plus-jquery.js"></script>
+
+ </body>
+
+ </html>
